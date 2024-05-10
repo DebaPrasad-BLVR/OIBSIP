@@ -1,0 +1,134 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+                
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy-Heavy', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 110px;
+    width: 100%;
+    background-color:#0E0E10;
+    color: #e3e3e3;
+    position: relative;
+}
+#nav{
+    height: 90px;
+    padding: 0 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav img{
+    height: 25px;
+    margin-right: 50px;
+}
+#nav-prt1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-prt2 i{
+   margin-right: 20px;
+   font-size: 20px;
+}
+
+#nav-prt1 h4{
+    
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+#content{
+    width: 100%;
+    height: calc(100% - 90px);
+    position: relative;
+    display: flex;
+}
+
+#left{
+    width: 45%;
+    background-color: #CECBCB;
+    height: 100%;
+    padding: 20px 150px;
+}
+
+#left h5{
+    margin-top: 30px;
+    font-size: 20px;
+    color:#575257;
+    margin-bottom: 10px;
+}
+
+#left h1{
+    font-size: 55px;
+    color:#0E0E10;
+}
+
+#left p{
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 10;
+    width: 100% ;
+}
+#left button{
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 35px;
+}
+
+#right{
+    width: 70%;
+    height: 100%;
+    background-color: #CECBCB;
+    position: relative;
+    padding: 70px;
+    white-space: nowrap;
+    
+}
+
+
+.elem{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    height: 460px;
+    width: 250px;
+    background:#CECBCB;
+    position: relative;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.elem img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    position: absolute;
+    color: #CECBCB;
+    
+}
+
+
+.elem h4{
+    position:absolute;
+    bottom: 0%;
+    right: 10%;
+    color:#fff;
+    padding: 17px 34px;
+    border-radius: 6px;
+}
+
